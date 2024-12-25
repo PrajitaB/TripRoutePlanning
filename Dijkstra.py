@@ -7,7 +7,6 @@ def min_distance(distances, visited, n):
             min_dist = distances[v]
             min_index = v
     return min_index
-##############################################
 
 # Dijkstra's Algorithm
 def dijkstra(graph, n, source, destination):
